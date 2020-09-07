@@ -1,0 +1,219 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+\usepackage{blindtext}
+%++++++++++++++++++++++++++++++++++++++++
+
+
+\begin{document}
+
+\title{Usability Engineering and HCI Patterns}
+\maketitle
+
+\begin{abstract}
+By taking usability principles from Human-Computer Interaction (HCI) design patterns and incorporate them into patterns for software analysis (problem frames), we obtain a new kind of patterns applicable for requirements engineering: HCI Frames. They are used for exploring usability needs of a given problem situation.
+\end{abstract}
+
+
+\section{Introduction}
+
+Usability engineering is a professional discipline that focuses on improving the usability of interactive systems. It draws on theories from computer science and psychology to define problems that occur during the use of such a system. Usability engineering involves the testing of designs at various stages of the development process, with users or with usability experts.
+
+HCI Design Pattern An HCI design pattern describes a recurring problem together with a proven solution. An HCI design pattern, in the following referred to as “pattern” or “design pattern”, has a well-defined form, which is dependent on the individual author's preferences.
+
+\section{Usability Engineering}
+
+Usability is all about how users interact with technology, and usability engineering studies the human-computer interface (HCI) in depth. Usability engineering requires a firm knowledge of computer science and psychology and approaches product development based on customer feedback. A usability engineer works hand-in-hand with customers, working to develop a better understanding of the functionality and design requirements of a product in order to build more reliable data for it. According to Sun Usability Labs, six general attributes define usability:
+
+Utility,
+Learn-ability,
+Efficiency,
+Retain-ability,
+Errors,
+Customer satisfaction
+
+\section{Methods and Tools}
+
+The Web Metrics Tool Suite
+This is a product of the National Institute of Standards and Technology. This toolkit is focused on evaluating the HTML of a website versus a wide range of usability guidelines and includes:
+
+Web Static Analyzer Tool (WebSAT) – checks web page HTML against typical usability guidelines
+Web Category Analysis Tool (WebCAT) – lets the usability engineer construct and conduct a web category analysis
+Web Variable Instrumenter Program (WebVIP) – instruments a website to capture a log of user interaction
+Framework for Logging Usability Data (FLUD) – a file format and parser for representation of user interaction logs
+FLUDViz Tool – produces a 2D visualization of a single user session
+VisVIP Tool – produces a 3D visualization of user navigation paths through a website
+TreeDec – adds navigation aids to the pages of a website
+The Usability Testing Environment (UTE)
+This tool is produced by Mind Design Systems is available freely to federal government employees. According to the official company website this tool consists of two tightly-integrated applications. The first is the UTE Manager, which helps a tester set up test scenarios (tasks) as well as survey and demographic questions. The UTE Manager also compiles the test results and produces customized reports and summary data, which can be used as quantitative measures of usability observations and recommendations.
+
+The second UTE application is the UTE Runner. The UTE Runner presents the test participants with the test scenarios (tasks) as well as any demographic and survey questions. In addition, the UTE Runner tracks the actions of the subject throughout the test including clicks, keystrokes, and scrolling.
+
+The UsableNet Liftmachine
+This tool is a product of UsableNet.com and implements the section 508 Usability and Accessibility guidelines as well as the W3C Web Accessibility Initiative Guidelines.
+
+It is important to remember that online tools are only a useful tool, and do not substitute for a complete Usability Engineering analysis.
+
+
+\section{Interaction Design Patterns}
+
+An interaction design (ID) pattern is a general repeatable solution to a commonly-occurring usability problem in interface design or interaction design. An ID pattern usually consists of the following elements:
+
+Problem: Problems are related to the usage of the system and are relevant to the user or any other stakeholder that is interested in usability.
+Use when: a situation (in terms of the tasks, the users and the context of use) giving rise to a usability problem. This section extends the plain problem-solutions dichotomy by describing situations in which the problems occur.
+Principle: a pattern is usually based on one or more ergonomic principles such as user guidance, or consistency, or error management.
+Solution: a proven solution to the problem. A solution describes only the core of the problem, and the designer has the freedom to implement it in many ways. Other patterns may be needed to solve sub problems.
+Why: How and why the pattern actually works, including an analysis of how it may affect certain attributes of usability. The rationale (why) should provide a reasonable argument for the specified impact on usability when the pattern is applied. The why should describe which usability aspects should have been improved or which other aspects might suffer.
+Examples: Each example shows how the pattern has been successfully applied in a real life system. This is often accompanied by a screenshot and a short description.
+Implementation: Some patterns provide implementation details.
+As numerous people have worked on the patterns in Human Computer Interaction in recent years, the concept of an ID patterns is known under different names; e.g. interaction patterns, user interface (UI) patterns, usability patterns, web design patterns, and workflow patterns. These patterns share a lot of similarities and basically all provide solutions to usability problems in interaction and interface design. Some patterns are known under different names (or even the same name) in different pattern collections.
+
+\section{HCI Design for Mobile Devices Based on a
+Smart Healthcare Architecture}
+
+Smart and IoT-enabled mobile devices have the potential to enhance healthcare services for both patients and healthcare
+providers. Human computer interaction design is key to realizing a useful and usable connection between the users and these
+smart healthcare technologies. Appropriate design of such devices enhances the usability, improves effective operation in an
+integrated healthcare system, and facilitates the collaboration and information sharing between patients, healthcare providers,
+and institutions. In this paper, the concept of smart healthcare is introduced, including its four-layer information architecture
+of sensing, communication, data integration, and application. Human Computer Interaction design principles for smart
+healthcare mobile devices are outlined, based on user-centered design. These include: ensuring safety, providing errorresistant displays and alarms, supporting the unique relationship between patients and healthcare providers, distinguishing
+end-user groups, accommodating legacy devices, guaranteeing low latency, allowing for personalization, and ensuring
+patient privacy. Results are synthesized in design suggestions ranging from personas, scenarios, workflow, and information
+architecture, to prototyping, testing and iterative development. Finally, future developments in smart healthcare and Human
+Computer Interaction design for mobile health devices are outlined.
+
+\section{Keywords}
+
+Design methodology, human computer interaction, medical services, mobile computing, user centered design, user interfaces.
+
+\section{Information architecture for smart healthcare}
+
+1. Sensing layer
+The sensing layer, at the bottom of the architecture, performs the intelligent sensing, monitoring, and collection of health data from medical environments including hospitals, nursing homes, outpatient clinics, medical transports, imaging facilities,and laboratories, as well as from individual patients and families in their homes and communities. The main technology used is
+IoT, supplemented by biotechnology and nanotechnology for novel sensors.
+
+2. Communication layer
+The communication layer is based on the Internet, telecommunication, and broadcasting networks. It combines fiber optic and wireless broadband networks, aiming to provide convenient, high-speed, reliable, large capacity, and comprehensive infrastructure to facilitate data sharing between medical devices, patients, and HCPs. To achieve real-time transmission of medical information, which is required for high quality provision of smart healthcare services, the network could prioritize health data traffic specifically, yet there remains a lot of development work to do and regulatory oversight is still progressing.
+
+3. Data integration layer
+The data integration layer completes the data fusion and data sharing processes, which are a core need for supporting smart healthcare services. It uses a service-oriented architecture, big data and cloud computing technologies to build electronic health records, share health information resources, and augment data with information from other smart systems. The integrated information provides the support platform for the application layer.
+
+4. Application layer
+The application layer supports the specific healthcare business needs. The construction of various types of eHealth applications are based on electronic health records, which uses federated data models that are securely linked to facilitate realtime comprehensive information sharing by patients and HCPs, and to make the best use of all levels of available medical resources. It provides users with convenient and efficient links of applications and smart healthcare services, and connects different segments of the healthcare industry
+
+
+\section{HCI design methods for smart mHealth devices}
+
+HCI design includes specifying context and requirements, defining personas and scenarios, designing workflows and user interfaces, as well as prototyping, evaluating, and iterating designs. User centered design (UCD) or user-driven development (UDD) should be adopted throughout the problem-solving process, which keeps the user at the focal point during the whole product cycle. It refers to human-centered design (HCD), which is defined by ISO 9241-210:2010 as an approach that focuses specifically on making interactive systems usable. It uses an iterative process emphasizing usability goals, user characteristics, tasks, workflows, and environments; and follows a series of techniques for analysis, design, evaluation,implementation and deployment phases. The typical steps include specification of the context of use and requirements,
+creation of design solutions and an evaluation. Activities include:
+
+1. Plan UCD in system strategies
+
+2. Specify and identify
+
+3. Produce design solutions
+
+4. Produce prototypes
+
+5. Evaluate design solutions
+
+6. Develop and implement 
+
+7. Evaluate in use
+
+\section{Recommendations and Future Work}
+
+Smart healthcare is an emerging field. HCI study and application in this area not only benefits the development of smart
+healthcare, but also expands the theory and practice of HCI as an interdisciplinary subject [89]. This paper provides insights and
+strategies for HCI practitioners when developing smart mHealth devices, or when IoT and cloud computing technologies are
+added to existing medical systems. Theoretical research can provide useful guidance, yet as the field is in an exploratory stage,
+there are few cases available to learn from. Enriching research in practical design and development is an important future
+direction for HCI researchers and practitioners.
+Smart technologies have enabled the rapid development of smart mHealth devices in the recent past, and increased demand
+for upgrading existing medical devices. Future smart mHealth devices are likely to be completely different from today’s
+hardware and software systems, and the way people perceive and interact with them will be different as well. Smart systems
+will likely fully integrate into everyday objects or buildings. Autonomous behavior such as the automatic provision of
+healthcare services using sensor data and self-learning clinical decision support systems will become characteristics of smart
+healthcare services. HCI addresses this issue, as a loss of control by users has the potential to undermine the integrity of the
+whole system, and both patients and HCPs will subvert the system with workarounds. This may be particularly true in
+healthcare and poses a major challenge for HCI, more so than for other aspects of IoT and cloud computing.
+Finally, current mHealth devices will develop towards a more intelligent, more convenient, and more natural smart
+healthcare technology. The HCI methodology must keep pace with these developments.
+
+\section{Conclusion}
+
+Including an HCI approach in the development of smart healthcare devices is critical, because good HCI design enhances
+both the usability and usefulness of these devices. HCI design in smart healthcare should be delivered with a user centered
+design approach, and is most effectively supported by the system thinking of a four-layer information architecture, consisting of
+application, data integration, communication and sensing layers. Specific considerations for HCI in healthcare include a)
+balancing safety with ease-of-use, b) the need for error-resistant displays and alarms, c) providing timely response with
+minimized latency, d) satisfying the varying requirements of different user groups, while e) respecting the healthcare providerpatient relationship, as well as allowing for f) personalization and security, and g) integration with legacy workflows and
+systems.
+
+\begin{thebibliography}{299}
+
+1. Doukas C, Maglogiannis I. Bringing IoT and Cloud Computing towards Pervasive Healthcare. In: 2012 Sixth
+International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing. IEEE; 2012. p. 922–6.
+
+
+\newline2. Hassanalieragh M, Page A, Soyata T, Sharma G, Aktas M, Mateos G, et al. Health Monitoring and Management Using
+Internet-of-Things (IoT) Sensing with Cloud-Based Processing: Opportunities and Challenges. In: 2015 IEEE
+International Conference on Services Computing. IEEE; 2015. p. 285–92.
+
+\newline3. Poslad S. Ubiquitous Computing: Smart Devices, Environments and Interactions. Hoboken, NJ: John Wiley & Sons,
+Inc; 2009. 502 p.
+
+\newline4. Alagoz F, Valdez AC, Wilkowska W, Ziefle M, Dorner S, Holzinger A. From cloud computing to mobile Internet,
+from user focus to culture and hedonism: The crucible of mobile health care and Wellness applications. In: 5th
+International Conference on Pervasive Computing and Applications. IEEE; 2010. p. 38–45.
+
+\newline5. Martin JL, Norris BJ, Murphy E, Crowe JA. Medical device development: the challenge for ergonomics. Appl Ergon.
+2008 May;39(3):271–83.
+
+\newline6. Money AG, Barnett J, Kuljis J, Craven MP, Martin JL, Young T. The role of the user within the medical device design
+and development process: medical device manufacturers’ perspectives. BMC Med Inform Decis Mak. 2011 Feb
+28;11(1):15.
+
+\newline7. Vincent CJ, Li Y, Blandford A. Integration of human factors and ergonomics during medical device design and
+development: it’s all about communication. Appl Ergon. 2014 May;45(3):413–9.
+
+\newline8. Bui N, Zorzi M. Health Care Applications: A Solution Based on The Internet of Things. In: Proceedings of the 4th
+International Symposium on Applied Sciences in Biomedical and Communication Technologies ACM. New York,
+New York, USA: ACM Press; 2011. p. 1–5.
+
+\newline9. Istepanian R, Woodward B. M-health: Fundamentals and applications. Hoboken, NJ: IEEE Press / John Wiley & Sons;
+2016.
+
+\newline10. Bragazzi NL. From P0 to P6 medicine, a model of highly participatory, narrative, interactive, and “augmented”
+medicine: some considerations on Salvatore Iaconesi’s clinical story. Patient Prefer Adherence. 2013;7:353.
+
+\newline11. Fanos V. 10 P Pediatrics: notes for the future. J Pediatr Neonatal Individ Med. 2016 Jan 8;5(1):e050101.
+
+\newline12. Röcker C, Maeder A. User-Centered Design of Smart Healthcare Applications. Electron J Heal Informatics.
+2011;6(2):11.
+
+\newline13. Solanas A, Patsakis C, Conti M, Vlachos I, Ramos V, Falcone F, et al. Smart health: A context-aware health paradigm
+within smart cities. IEEE Commun Mag. 2014 Aug;52(8):74–81.
+
+\newline14. Research O. Global Mobile Health (mHealth) Market Growth, Trends and Forecasts (2017-2022) [Internet]. 2017
+[cited 2018 Sep 7]. Available from: https://newsstand.joomag.com/en/market-research-report-multiple-trends-inmobile-health-mhealth-industr/0540440001488877562
+
+\newline15. Grand View Research. Internet of Things (IoT) in Healthcare Market Size, Share & Trend Analysis Report By
+Component, By Connectivity Technology, By Application, By End-use, By Region, And Segment Forecasts, 2012 -
+2022 [Internet]. 2016 [cited 2017 Aug 11]. Available from: https://www.grandviewresearch.com/industryanalysis/internet-of-things-iot-healthcare-market
+
+\end{thebibliography}
+
+\end{document}
